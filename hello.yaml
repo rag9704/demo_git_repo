@@ -1,0 +1,21 @@
+# key : value pairs
+
+"apple" : "I am a red fruit"
+1 : "Anurag's number"
+---
+# lists
+
+- apple
+- mango
+- banana
+- Mango 
+---
+#block style
+cities:
+  - new delhi
+  - mumbai
+  - bangalore
+
+...
+
+
