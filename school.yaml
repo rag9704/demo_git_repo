@@ -1,0 +1,7 @@
+---
+School:
+- name : KVS
+  principal : choubey
+  students :
+    - rno : 23
+    - marks : 100

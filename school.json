@@ -1,0 +1,15 @@
+{
+    "School" : [
+        {
+        "name" : "KVS",
+        "principal" : "Choubey",
+        "Students" : [
+            {
+                "roll no": 23,
+                "marks"  : 100
+            }
+        ]
+        }
+
+    ]
+}
