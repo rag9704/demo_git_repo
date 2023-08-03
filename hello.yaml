@@ -15,7 +15,10 @@ cities:
   - new delhi
   - mumbai
   - bangalore
-
+---
+cities : [delhi,gurgaon]
+---
+{mango: 'fruit', age: 69}
 ...
 
 

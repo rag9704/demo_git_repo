@@ -1,0 +1,42 @@
+# string variabls
+name: anurag
+fruit: "apple"
+job : data scientist 
+
+bio: |
+hey man, sup
+working on yaml
+
+#wrtie a single line in multiple line
+message: > 
+learned git,github and now on
+yaml, will learn aws,
+kubernets and all
+
+#number 
+number : 2342
+marks : 89.34
+booleanValue : No # n,N,False,false
+exp :  2.43E23
+# specify the type 
+
+zero: !!int 
+positiveNum : !!int 45
+negativeNum : !!int -45
+binary : !!int 0b1101
+commaValue: !!int +500_400
+
+#floating points numbrt
+
+marks : !!float 56.87
+infinite : !!float .inf
+not num : .nan
+
+#null
+surname : !!null Null 
+
+#dates and time
+date : !!timestamp 2023-03-29
+
+
+

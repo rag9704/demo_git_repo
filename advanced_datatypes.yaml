@@ -1,0 +1,73 @@
+student: !!seq    #sequence like data
+  - marks
+  - name 
+  - roll no 
+
+#some of the keys of seq will be empty --> sparse
+sparse seq:
+ - hey
+ - how
+ - 
+ - Null
+ - sup
+
+#Nested sequence
+-
+ - mango
+ - apple
+ - banana
+-
+ - marks
+ - roll no
+ - date
+
+#key : value pairs are called maps
+
+!!map 
+
+#nested map
+name: Anurag
+role :
+ age : 26
+ job : data scientist
+
+# pairs : keys with multiple values
+
+pair example: !! pairs
+ -job : data scientist
+ -job : phd
+
+## !!set will allow to have unique values
+
+names: !!set 
+  ? anurag
+  ? gouranshi
+  ? rehan
+
+# dictionary !!omap
+
+people : !!omap
+  - Anurag: 
+    - name : anuraf
+    - age  : 324
+    - job : ds
+  - Gouranshi :
+    - name: Gouranshi
+    - age : 23
+    - job : pd
+
+# resuing some props (using anchors)
+likings : &likes
+  fruit : mango
+  rank : 4
+  dislike : shitty job
+
+person :
+  name: anurag
+  <<: *likes  #copying likings
+  dislike: berries  #overwriting 
+
+
+
+
+
